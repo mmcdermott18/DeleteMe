@@ -161,7 +161,7 @@ body {
   #container {
     width: 90vw;
     margin-top: 5vw;
-    padding: 55px;
+    padding: 25px;
   }
   .square {
     width: calc((90vw - 50px) / 5);
@@ -177,16 +177,16 @@ body {
     width: 5px;
   }
   .top {
-    top: 7.5px;
+    top: 12.5px;
   }
   .bottom {
-    bottom: 7.5px;
+    bottom: 12.5px;
   }
   .left {
-    left: 7.5px;
+    left: 12.5px;
   }
   .right {
-    right: 7.5px;
+    right: 12.5px;
   }
 }
 
