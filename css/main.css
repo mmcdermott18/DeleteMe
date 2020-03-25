@@ -161,11 +161,11 @@ body {
   #container {
     width: 90vw;
     margin-top: 5vw;
-    padding: 50px;
+    padding: 55px;
   }
   .square {
-    width: calc((90vw - 100px) / 5);
-    height: calc((90vw - 100px) / 5);
+    width: calc((90vw - 50px) / 5);
+    height: calc((90vw - 50px) / 5);
     border-radius: 10px;
     border: 5px solid black;
     float: left;
@@ -175,6 +175,18 @@ body {
   }
   .left, .right {
     width: 5px;
+  }
+  .top {
+    top: 7.5px;
+  }
+  .bottom {
+    bottom: 7.5px;
+  }
+  .left {
+    left: 7.5px;
+  }
+  .right {
+    right: 7.5px;
   }
 }
 
