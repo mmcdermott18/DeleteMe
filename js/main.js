@@ -31,7 +31,7 @@ function key() {
     }
   } else {
     $('.first-marker').addClass('red');
-    for (b = 0; b < 8; b++) {
+    for (b = 0; b < 9; b++) {
       var bsquare = "#s-" + ranNums[b];
       $(bsquare).addClass('red');
     }
