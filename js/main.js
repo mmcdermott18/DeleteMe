@@ -30,6 +30,7 @@ function key() {
       $(rsquare).addClass('red');
     }
   } else {
+    $('.first-marker').addClass('red');
     for (b = 0; b < 8; b++) {
       var bsquare = "#s-" + ranNums[b];
       $(bsquare).addClass('red');
