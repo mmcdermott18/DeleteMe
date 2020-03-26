@@ -10,26 +10,34 @@ function key() {
   var i = 0;
   var j;
   var turn = Math.floor(Math.random() * 2);
-  while (i < 11) {
+  while (i < 18) {
     j = Math.floor(Math.random() * (l));
     ranNums.push(nums[j]);
     l = l - 1;
     nums.splice(j,1);
     i++;
   }
-  for (b = 0; b < 5; b++) {
-    var bsquare = "#s-" + ranNums[b];
-    $(bsquare).addClass('blue');
-  }
-  for (r = 5; r < 10; r++) {
-    var rsquare = "#s-" + ranNums[r];
-    $(rsquare).addClass('red');
-  }
-  var assassin = "#s-" + ranNums[10];
+  var assassin = "#s-" + ranNums[17];
   $(assassin).addClass('assassin');
   if (turn == 0) {
     $('.first-marker').addClass('blue');
+    for (b = 0; b < 9; b++) {
+      var bsquare = "#s-" + ranNums[b];
+      $(bsquare).addClass('blue');
+    }
+    for (r = 8; r < 17; r++) {
+      var rsquare = "#s-" + ranNums[r];
+      $(rsquare).addClass('red');
+    }
   } else {
-    $('.first-marker').addClass('red');
+    for (b = 0; b < 8; b++) {
+      var bsquare = "#s-" + ranNums[b];
+      $(bsquare).addClass('red');
+    }
+    for (r = 8; r < 17; r++) {
+      var rsquare = "#s-" + ranNums[r];
+      $(rsquare).addClass('blue');
+    }
   }
+
 }
