@@ -25,7 +25,7 @@ function key() {
       var bsquare = "#s-" + ranNums[b];
       $(bsquare).addClass('blue');
     }
-    for (r = 8; r < 17; r++) {
+    for (r = 9; r < 17; r++) {
       var rsquare = "#s-" + ranNums[r];
       $(rsquare).addClass('red');
     }
@@ -35,7 +35,7 @@ function key() {
       var bsquare = "#s-" + ranNums[b];
       $(bsquare).addClass('red');
     }
-    for (r = 8; r < 17; r++) {
+    for (r = 9; r < 17; r++) {
       var rsquare = "#s-" + ranNums[r];
       $(rsquare).addClass('blue');
     }
